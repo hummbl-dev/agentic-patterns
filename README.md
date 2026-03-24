@@ -141,6 +141,20 @@ Agent Task
 - Unix-like OS for coordination bus (uses `fcntl.flock`)
 - No runtime dependencies
 
+## HUMMBL Ecosystem
+
+This repo is part of the [HUMMBL](https://github.com/hummbl-dev) cognitive AI architecture. Related repos:
+
+| Repo | Purpose |
+|------|---------|
+| [hummbl-governance](https://github.com/hummbl-dev/hummbl-governance) | Production governance runtime built on these patterns |
+| [base120](https://github.com/hummbl-dev/base120) | Deterministic cognitive framework -- 120 mental models across 6 transformations |
+| [mcp-server](https://github.com/hummbl-dev/mcp-server) | Model Context Protocol server for Base120 integration |
+| [arbiter](https://github.com/hummbl-dev/arbiter) | Agent-aware code quality scoring and attribution |
+| [governed-iac-reference](https://github.com/hummbl-dev/governed-iac-reference) | Reference architecture for governed infrastructure-as-code |
+
+Learn more at [hummbl.io](https://hummbl.io).
+
 ## License
 
 MIT -- see [LICENSE](LICENSE).
